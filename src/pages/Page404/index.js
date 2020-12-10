@@ -2,10 +2,10 @@ import React from 'react';
 
 import { Container } from '../../styles/global';
 
-export default function SignIn(){
+export default function Page404(){
   return (
     <Container>
-      <h1>Página de Login</h1>
+      <h1>Página não Encontrada...</h1>
     </Container>
   )
 }
