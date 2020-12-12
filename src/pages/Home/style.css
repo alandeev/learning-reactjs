@@ -1,11 +1,11 @@
-.form {
-  background: #ccc;
+.form { 
+  padding: 20px;
 }
 
 .form .field {
-  
+  margin: 10px 0;
 }
 
-.form .field .label {
+.form .label {
   color: black;
 }

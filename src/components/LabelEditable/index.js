@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 
 import './LabelEditable.css';
 
+import { FaEdit } from 'react-icons/fa';
+
 export default function LabelEditable({ value, onChange, startWithInput=false }){
   const [ editable, setEditable ] = useState(startWithInput);
   const [ currentValue, setCurrentValue ] = useState(value);
@@ -15,12 +17,13 @@ export default function LabelEditable({ value, onChange, startWithInput=false })
   }
 
   return (
-    <div className="LabelEditable">
+    <div className="_LabelEditable LabelEditable">
       { 
         editable ?
-        <input className="input-editable" autoFocus type="text" onKeyPressCapture={handleEnterPressInput} value={currentValue} onChange={(event) => setCurrentValue(event.target.value)}></input> :
-        <label className="label-editable" onClick={() => setEditable(true)} >{value}</label>
+        <input className="_input-editable input-editable" autoFocus type="text" onKeyPressCapture={handleEnterPressInput} value={currentValue} onChange={(event) => setCurrentValue(event.target.value)}></input> :
+        <label className="_label-editable label-editable">{value}</label>
       }
+      <FaEdit className="_edit-button edit-button" onClick={() => setEditable(true)}/>
     </div>
   )
 }

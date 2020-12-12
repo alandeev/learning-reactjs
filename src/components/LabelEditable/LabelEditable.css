@@ -1,13 +1,13 @@
-.LabelEditable {
+._LabelEditable {
   margin-top: 2px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   height: 30px;
-  padding: 0 5px;
 }
 
-.LabelEditable .input-editable, .LabelEditable .label-editable{
+._LabelEditable ._input-editable, ._LabelEditable .label-editable{
   border: 0;
   display: flex;
   align-items: center;
@@ -16,6 +16,14 @@
   background: transparent;
 }
 
-.LabelEditable .label-editable {
+._LabelEditable ._label-editable {
+  cursor: text;
+}
+
+._LabelEditable ._input-editable:focus ._LabelEditable {
+  background: #cccc;
+}
+
+._LabelEditable ._edit-button{
   cursor: pointer;
 }

@@ -22,7 +22,9 @@ export default function Home(){
       <form className="form" onSubmit={handleSubmit}>
         <div className="field">
           <label className="label" for="email">E-mail</label>
-          <LabelEditable value={email} name="email" onChange={setEmail} />
+          <div className="input">
+            <LabelEditable value={email} name="email" onChange={setEmail} buttonEdit={true} />
+          </div>
         </div>
         <div className="field">
           <label className="label" for="password">Password</label>
