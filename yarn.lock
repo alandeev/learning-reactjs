@@ -9082,6 +9082,14 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.1.tgz#5b3531bd76a645a4c9fb6e693ed36419e3301339"
   integrity sha512-NAnt2iGDXohE5LI7uBnLnqvLQMtzhkiAOLXTmv+qnF9Ky7xAPcX8Up/xWIhxvLVGJvuLiNc4xQLtuqDRzb4fSA==
 
+react-label-editable@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/react-label-editable/-/react-label-editable-1.0.6.tgz#89bf4ab2e4d5e77a00129d6958c810129b1c7ecf"
+  integrity sha512-4B5/mrvouROaoduF8iJkYAAsrsechTeo6dcIEJYZt357egGFuVCbguuJv2VUXvgsV26Biq24tWdOthShkSLTgA==
+  dependencies:
+    prop-types "^15.7.2"
+    react-icons "^4.1.0"
+
 react-refresh@^0.8.3:
   version "0.8.3"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"

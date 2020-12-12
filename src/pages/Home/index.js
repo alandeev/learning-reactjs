@@ -1,19 +1,22 @@
 import React, { useState } from 'react';
 
 import { Container } from '../../styles/global';
-import LabelEditable from '../../components/LabelEditable';
+// import LabelEditable from '../../components/LabelEditable';
+// import Teste from '../../components/Teste';
 
 import { toast } from 'react-toastify';
 
 import './style.css';
 
+import LabelEditable from 'react-label-editable';
+
 export default function Home(){
-  const [ email, setEmail ] = useState("alandev2@gmail.com");
+  const [ email, setEmail ] = useState("pedro@gmail.com");
   const [ password, setPassword ] = useState("123456");
 
   function handleSubmit(event){
     event.preventDefault();
-    toast.success(`email: ${email}, password: ${password}`);
+    toast.success(`email: ${email}`);
   }
 
   return (
