@@ -1,0 +1,21 @@
+.LabelEditable {
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  padding: 0 5px;
+}
+
+.LabelEditable .input-editable, .LabelEditable .label-editable{
+  border: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+.LabelEditable .label-editable {
+  cursor: pointer;
+}
