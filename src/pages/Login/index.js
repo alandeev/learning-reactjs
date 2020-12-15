@@ -4,13 +4,20 @@ import { toast } from 'react-toastify'
 
 import { Container } from '../../styles/global';
 
-import api from '../../services/axios';
+import { useDispatch } from 'react-redux';
+
+import * as exampleActions from '../../store/modules/example/actions';
+
+// import api from '../../services/axios';
 
 export default function SignIn(){
+  const dispatch = useDispatch();
   const [ text, changeText ] = useState("");
 
   function handleSubmit(event){
     event.preventDefault();
+
+    dispatch(exampleActions.BUTTON_CLICKED());
 
     toast.error(text);
   }

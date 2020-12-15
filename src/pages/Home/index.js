@@ -1,12 +1,9 @@
 import React, { useState } from 'react';
 
 import { Container } from '../../styles/global';
-// import LabelEditable from '../../components/LabelEditable';
-// import Teste from '../../components/Teste';
+import './style.css';
 
 import { toast } from 'react-toastify';
-
-import './style.css';
 
 import LabelEditable from 'react-label-editable';
 
@@ -21,7 +18,7 @@ export default function Home(){
 
   return (
     <Container>
-      <h1>Página principal</h1>
+      {/* <h1>Página principal</h1> */}
       <form className="form" onSubmit={handleSubmit}>
         <div className="field">
           <label className="label" for="email">E-mail</label>
@@ -33,7 +30,8 @@ export default function Home(){
           <label className="label" for="password">Password</label>
           <LabelEditable value={password} name="password" onChange={setPassword} />
         </div>
-        <button type="submit">Exibir Valores</button>
+        <br></br>
+        <button type="submit">Change Account</button>
       </form>
     </Container>
   )

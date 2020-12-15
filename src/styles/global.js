@@ -48,7 +48,7 @@ export const Container = styled.section`
   max-width: 800px;
   /* width: 80%; */
   background: #fff;
-  margin: 30px auto;
+  margin: 100px auto;
   padding: 30px;
   border-radius: 4px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
