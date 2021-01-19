@@ -1,5 +1,11 @@
 module.exports =  { 
-  BUTTON_CLICKED(state, payload){
-    return { type: "BUTTON_CLICKED" }
+  clickButtonRequest: function(){ 
+    return { type: "BUTTON_CLICKED_REQUEST" }
+  },
+  clickButtonFailure: function(){ 
+    return { type: "BUTTON_CLICKED_FAILURE" }
+  },
+  clickButtonSuccess: function(){ 
+    return { type: "BUTTON_CLICKED_SUCCESS" }
   }
 }

@@ -17,9 +17,7 @@ export default function SignIn(){
   function handleSubmit(event){
     event.preventDefault();
 
-    dispatch(exampleActions.BUTTON_CLICKED());
-
-    toast.error(text);
+    dispatch(exampleActions.clickButtonRequest());
   }
 
   return (

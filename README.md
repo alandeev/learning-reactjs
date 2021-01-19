@@ -7,8 +7,7 @@
 - 1001 tools to learning 🚀🚀🚀
 
 ## Progress 💜
-
-- Redux
+- still waiting... 
 
 ## Ready 💖
 
@@ -19,6 +18,7 @@
 - history (package)
 - StyledComponent
 - Axios (consuming my apis 😁)
+- ReduxReducer / Saga / ReduxPersist
 
 ## Information Progress(Date) and Avaliation
 
